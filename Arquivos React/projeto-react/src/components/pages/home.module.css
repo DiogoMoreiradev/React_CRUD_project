@@ -1,0 +1,21 @@
+.home{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2em;
+}
+.home h1{
+    font-size: 30px;
+}
+.home span {
+    background-color: black;
+    color:gold;
+    border-radius: 25px;
+    padding: 0.5em 1em;
+}
+.home p {
+    font-weight: 500;
+    padding: 0.5em;
+}

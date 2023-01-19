@@ -1,0 +1,27 @@
+.loading{
+    border-top-color:gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    
+}
+.loading::after{
+    content: " ";
+    width: 64px;
+    height: 64px;
+    border: 6px solid black;
+    border-color: black transparent black transparent;
+    border-radius: 50%;
+    animation: is-rotating 1.2s linear infinite;
+}
+@keyframes is-rotating {
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+}

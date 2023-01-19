@@ -1,0 +1,17 @@
+.btn_projeto {
+    color: gold;
+    background-color: black;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_projeto:hover {
+    text-decoration: none;
+    background-color: #363636;
+    color: gold;
+}

@@ -1,0 +1,14 @@
+.projeto {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2em;
+    
+}
+.projeto h1 {
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
